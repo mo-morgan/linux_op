@@ -1,0 +1,14 @@
+cd
+cp src dest
+scp src dest
+mv src dest
+rm file
+g++ file.cc -o appname
+./appname
+g++ -std=c++11 file.cc -o appname
+g++ -std=c++11 file.cpp -Wfatal-errors
+g++ -std=c++11 file.cpp -Wal
+
+// not indenting properly when pasting?
+:set paste
+:set nopaste

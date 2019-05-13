@@ -1,0 +1,3 @@
+#!/bin/bash
+#cd /mnt/c/Users/Morgan/Desktop
+cp -r $1 /mnt/c/Users/Morgan/Desktop
