@@ -13,5 +13,7 @@ g++ -std=c++11 file.cpp -Wal
 :set paste
 :set nopaste
 
-// update profile
+// giving permission to bash scripts
+export PATH=$PATH":$HOME/bin" // in .profile or .bash_profile
+chmod +x <your-script-name>
 . ~/.profile
