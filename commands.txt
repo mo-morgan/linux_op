@@ -12,3 +12,6 @@ g++ -std=c++11 file.cpp -Wal
 // not indenting properly when pasting?
 :set paste
 :set nopaste
+
+// update profile
+. ~/.profile
