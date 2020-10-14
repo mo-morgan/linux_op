@@ -15,5 +15,6 @@ g++ -std=c++11 file.cpp -Wal
 
 // giving permission to bash scripts
 export PATH=$PATH":$HOME/bin" // in .profile or .bash_profile
-chmod +x <your-script-name>
+                              // restart ubuntu
+chmod +x <your-script-name>   // from current directory
 . ~/.profile
